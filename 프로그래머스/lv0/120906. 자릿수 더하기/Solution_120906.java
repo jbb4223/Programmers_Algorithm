@@ -1,17 +1,17 @@
-public class test {
+public class Solution_120906 {
 
     public static void main(String[] args) {
         // 예시
         System.out.println("=======================");
-        System.out.println(solution("aAb1B2cC34oOp"));
+        System.out.println(solution(1234));
         System.out.println("=======================");
     }
 
-    public static int solution(String my_string) {
+    public static int solution(int n) {
         int answer = 0;
         String anw;
 
-        anw = my_string.replaceAll("[^\\d]", "");
+        anw = Integer.toString(n);
 
         for(int i=0; i<anw.length(); i++) {
             answer += Integer.parseInt(String.valueOf(anw.charAt(i)));
