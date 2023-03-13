@@ -1,4 +1,12 @@
 public class Solution_120811 {
+
+    public static void main(String[] args) {
+        // 예시
+        System.out.println("=======================");
+        System.out.println(solution(1,2));
+        System.out.println("=======================");
+    }
+
     fun solution(array: IntArray): Int {
         var answer = 0
 

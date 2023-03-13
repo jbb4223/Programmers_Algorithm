@@ -1,5 +1,13 @@
 public class Solution_120829 {
-    public int solution(int angle) {
+
+    public static void main(String[] args) {
+        // 예시
+        System.out.println("=======================");
+        System.out.println(solution(95));
+        System.out.println("=======================");
+    }
+
+    public static int solution(int angle) {
         int answer = 0;
         
         if(angle < 90) {

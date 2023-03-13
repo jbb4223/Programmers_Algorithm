@@ -1,5 +1,14 @@
 public class Solution_120841 {
-    public int solution(int[] dot) {
+
+    public static void main(String[] args) {
+        // 예시
+        int[] arr = {12,10};
+        System.out.println("=======================");
+        System.out.println(solution(arr));
+        System.out.println("=======================");
+    }
+
+    public static int solution(int[] dot) {
         int answer = 0;
         
         if(dot[0] > 0) {

@@ -1,5 +1,14 @@
 public class Solution_120817 {
-    public double solution(int[] numbers) {
+
+    public static void main(String[] args) {
+        // 예시
+        int[] arr = {0,1,2,1,1,1};
+        System.out.println("=======================");
+        System.out.println(solution(arr));
+        System.out.println("=======================");
+    }
+
+    public static double solution(int[] numbers) {
         double answer = 0;
         int sum = 0;
         
