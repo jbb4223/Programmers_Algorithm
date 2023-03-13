@@ -1,5 +1,13 @@
-class Solution {
-    public int solution(int price) {
+class Solution_120818 {
+
+    public static void main(String[] args) {
+        // 예시
+        System.out.println("=======================");
+        System.out.println(solution(20000));
+        System.out.println("=======================");
+    }
+
+    public static int solution(int price) {
         int answer = 0;
         double discount = 0;
         
