@@ -1,4 +1,4 @@
-public class test {
+public class Solution_120908 {
 
     public static void main(String[] args) {
         // 예시
