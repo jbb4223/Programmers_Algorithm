@@ -1,4 +1,4 @@
-class Solution {
+public class Solution_120820 {
     public int solution(int age) {
         int answer = 0;
         
