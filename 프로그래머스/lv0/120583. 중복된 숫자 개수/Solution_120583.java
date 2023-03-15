@@ -7,7 +7,7 @@ public class Solution_120583 {
         System.out.println(solution(arr,1));
         System.out.println("=======================");
     }
-    /// git revert testing
+    /// git revert testing2
 
     public static int solution(int[] array, int n) {
         int answer = 0;
