@@ -1,5 +1,14 @@
-class Solution {
-    public String solution(String rsp) {
+public class Solution_120839 {
+
+    public static void main(String[] args) {
+        // 예시
+        System.out.println("=======================");
+        System.out.println(solution("205"));
+        System.out.println("=======================");
+    }
+
+
+    public static String solution(String rsp) {
         String answer = "";
 
         for(int i=0; i<rsp.length(); i++) {
