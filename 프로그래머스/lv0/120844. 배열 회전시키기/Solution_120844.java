@@ -1,5 +1,16 @@
-class Solution {
-    public int[] solution(int[] numbers, String direction) {
+import java.util.Arrays;
+
+public class Solution_120844 {
+
+    public static void main(String[] args) {
+        // 예시
+        int [] arr = {4, 455, 6, 4, -1, 45, 6};
+        System.out.println("=======================");
+        System.out.println(Arrays.toString(solution(arr, "right")));
+        System.out.println("=======================");
+    }
+
+    public static int[] solution(int[] numbers, String direction) {
         int[] answer = new int[numbers.length];
 
         for(int i=0; i<numbers.length; i++) {
