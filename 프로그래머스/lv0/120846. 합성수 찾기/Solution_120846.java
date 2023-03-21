@@ -1,5 +1,13 @@
-class Solution {
-    public int solution(int n) {
+public class Solution_120846 {
+
+    public static void main(String[] args) {
+        // 예시
+        System.out.println("=======================");
+        System.out.println(solution(15));
+        System.out.println("=======================");
+    }
+
+    public static int solution(int n) {
         int answer = 0;
         int check;
         
