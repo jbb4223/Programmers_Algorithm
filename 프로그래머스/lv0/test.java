@@ -1,17 +1,34 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class test {
 
     public static void main(String[] args) {
         // 예시
+        int [] arr = {1, 2, 3, 4, 5, 6, 7};
         System.out.println("=======================");
-        System.out.println(solution("ppprrrogrammers", "pppp"));
+        System.out.println(Arrays.toString(solution(12)));
         System.out.println("=======================");
     }
 
-    public static int solution(String str1, String str2) {
-        int answer = 0;
+    public static int[] solution(int n) {
+        int[] answer = {};
+        List<Integer> array = new ArrayList<>();
 
-        answer = str1.contains(str2) ? 1 : 2;
+        int idx = 2;
+        while (n > 1) {
+            if (n % idx == 0) {
+                if (!array.contains(idx)) {
+                    array.add(idx);
+                }
+                n /= idx;
+            } else {
+                idx++;
+            }
+        }
 
+        answer = array.stream().distinct().mapToInt(Integer::intValue).toArray();
         return answer;
     }
 }
