@@ -1,6 +1,15 @@
 import java.util.Arrays;
-class Solution {
-    public int solution(int[] array, int n) {
+public class Solution_120890 {
+
+    public static void main(String[] args) {
+        // 예시
+        int [] arr = {3, 10, 28};
+        System.out.println("=======================");
+        System.out.println(solution(arr,20));
+        System.out.println("=======================");
+    }
+
+    public static int solution(int[] array, int n) {
         int answer = 0;
         int [] diff = new int[array.length];
         int minIndex = 0;
