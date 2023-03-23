@@ -10,13 +10,13 @@ public class Solution_120912 {
 
     public static int solution(int[] array) {
         int answer = 0;
-        String s = "";
+        StringBuilder s = new StringBuilder();
 
         for(int a : array) {
-            s += a;
+            s.append(a);
         }
 
-        answer = s.replaceAll("[^7]", "").length();
+        answer = s.toString().replaceAll("[^7]", "").length();
 
         return answer;
     }
