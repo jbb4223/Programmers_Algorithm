@@ -1,8 +1,17 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-class Solution {
-    public int[] solution(int n) {
+public class Solution_120852 {
+
+    public static void main(String[] args) {
+        // 예시
+        int [] arr = {1, 2, 3, 4, 5, 6, 7};
+        System.out.println("=======================");
+        System.out.println(Arrays.toString(solution(12)));
+        System.out.println("=======================");
+    }
+
+    public static int[] solution(int n) {
         int[] answer = {};
         List<Integer> array = new ArrayList<>();
 
