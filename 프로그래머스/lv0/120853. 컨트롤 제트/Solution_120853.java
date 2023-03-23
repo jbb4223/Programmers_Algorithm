@@ -1,5 +1,14 @@
-class Solution {
-    public int solution(String s) {
+public class Solution_120853 {
+
+    public static void main(String[] args) {
+        // 예시
+        int [] arr = {1, 2, 3};
+        System.out.println("=======================");
+        System.out.println(solution("1 2 Z 3"));
+        System.out.println("=======================");
+    }
+
+    public static int solution(String s) {
             int answer = 0;
             String [] arr = s.split(" ");
 
