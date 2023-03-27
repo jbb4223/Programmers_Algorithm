@@ -1,5 +1,14 @@
-class Solution {
-    public int solution(int[] sides) {
+public class Solution_120868 {
+
+    public static void main(String[] args) {
+        // 예시
+        int [] arr = {3, 6};
+        System.out.println("=======================");
+        System.out.println(solution(arr));
+        System.out.println("=======================");
+    }
+
+    public static int solution(int[] sides) {
             int answer = 0;
             int side = 1;
             int min = Math.min(sides[0],sides[1]);
