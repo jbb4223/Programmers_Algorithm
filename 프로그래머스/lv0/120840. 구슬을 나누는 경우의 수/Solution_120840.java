@@ -8,6 +8,8 @@ public class Solution_120840 {
         System.out.println("=======================");
     }
 
+    // nCr=n-1Cr+n-1Cr-1  공식
+
     public static int comb(int balls, int share) {
         if (balls == share || share == 0) return 1;
         return solution((balls - 1), (share - 1)) + solution(balls - 1, share);
