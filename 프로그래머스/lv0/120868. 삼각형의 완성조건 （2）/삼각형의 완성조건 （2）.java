@@ -2,13 +2,14 @@ class Solution {
     public int solution(int[] sides) {
             int answer = 0;
             int side = 1;
+            int min = Math.min(sides[0],sides[1]);
+            int max = Math.max(sides[0],sides[1]);
 
 
             while (true) {
-                // 배열안에 가장긴변수가 있는경우
-                if(Math.max(sides[0],sides[1]) >= side) {
-                    answer = answer + (Math.max(sides[0],sides[1]) < Math.min(sides[0],sides[1]) + side ?  1 : 0);
-                } else if (Math.max(sides[0],sides[1]) < side) {
+                if(max >= side) {
+                    answer = answer + (max < min + side ?  1 : 0);
+                } else if (max < side) {
                     if(sides[0] + sides[1] == side) {
                         break;
                     }
