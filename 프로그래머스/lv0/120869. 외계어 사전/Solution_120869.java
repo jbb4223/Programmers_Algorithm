@@ -1,7 +1,17 @@
 import java.util.Arrays;
 
-class Solution {
-    public int solution(String[] spell, String[] dic) {
+public class Solution_120869 {
+
+    public static void main(String[] args) {
+        // 예시
+        String [] arr = {"p", "o", "s"};
+        String [] arr2 = {"so", "eocd", "qixm", "adio", "soo"};
+        System.out.println("=======================");
+        System.out.println(solution(arr, arr2));
+        System.out.println("=======================");
+    }
+
+    public static int solution(String[] spell, String[] dic) {
             int answer = 0;
             String [] dicArr = {};
 
