@@ -1,7 +1,18 @@
 import java.util.Arrays;
 
-class Solution {
-    public String solution(String[] id_pw, String[][] db) {
+public class Solution_120883 {
+
+    public static void main(String[] args) {
+        // 예시
+        String [] arr = {"meosseugi", "1234"};
+        String [][] arr2 = {{"rardss", "123"}, {"yyoom", "1234"}, {"meosseugi", "1234"}};
+//            int [] arr2 = {5, 5};
+        System.out.println("=======================");
+        System.out.println(solution(arr, arr2));
+        System.out.println("=======================");
+    }
+
+    public static String solution(String[] id_pw, String[][] db) {
             String answer = "";
 
             for(String [] sArr : db) {
