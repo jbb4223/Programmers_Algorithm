@@ -1,5 +1,17 @@
-class Solution {
-    public int[] solution(String[] keyinput, int[] board) {
+import java.util.Arrays;
+
+public class Solution_120861 {
+
+    public static void main(String[] args) {
+        // 예시
+        String [] arr = {"left", "left", "left", "left", "right", "right", "right", "right"};
+        int [] arr2 = {5, 5};
+        System.out.println("=======================");
+        System.out.println(Arrays.toString(solution(arr, arr2)));
+        System.out.println("=======================");
+    }
+
+    public static int[] solution(String[] keyinput, int[] board) {
             int[] position = {0, 0};
 
             for(String s : keyinput) {
